@@ -1,0 +1,76 @@
+#menu {
+    width:960px;
+}
+
+.container {
+    border: 0px solid black;
+    width: 850px;
+    margin-left: 20px;
+}
+
+.row {
+    margin: 40px 30px;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid black;
+}
+
+.nav li {
+    margin-left: 20px;
+    width: 270px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 35px 15px;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.nav-tabs .eins {
+    background-color: #EF4926;
+    color:#fff;
+    border-color: #EF4926;
+}
+
+.nav-tabs > li.eins.active > a, .nav-tabs > li.eins.active > a:hover, .nav-tabs > li.eins.active > a:focus {
+    background-color: #EF4926;
+    color: #fff;
+    border-color: #EF4926;
+}
+
+.nav-tabs .zwei {
+    background-color: #64c5dc;
+    color: #fff;
+}
+
+.nav-tabs > li.zwei.active > a, .nav-tabs > li.zwei.active > a:hover, .nav-tabs > li.zwei.active > a:focus {
+    background-color: #64c5dc;
+    color: #fff;
+    border-color: #64c5dc;
+}
+
+.nav-tabs .drei {
+    background-color: #70c5a0;
+    color: #fff;
+    border-color: #70c5a0;
+}
+
+.nav-tabs > li.drei.active > a, .nav-tabs > li.drei.active > a:hover, .nav-tabs > li.drei.active > a:focus {
+    background-color: #70c5a0;
+    color: #fff;
+    border-color: #70c5a0;
+}
+
+.tab-content {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;    
+    font-size: 1.2em;
+}
